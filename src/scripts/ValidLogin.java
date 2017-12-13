@@ -17,7 +17,7 @@ public class ValidLogin extends BaseTest {
 		LoginPage l = new LoginPage(driver);
 		l.setUserName(un);
 
-		// Enter the password
+		// Enter the valid password
 		l.setPassword(pw);
 
 		// Click on login
