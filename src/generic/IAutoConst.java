@@ -6,7 +6,7 @@ public interface IAutoConst {
 	String GECKO_KEY = "webdriver.gecko.driver";
 	String GECKO_VALUE = "./Driver/geckodriver.exe";
 	String XL_PATH = "./Data/selenium.xlsx";
-	String SETTINGS_PATH = "./setting.properties";
+	String SETTINGS_PATH = "./settings.properties";
 	String PHOTO_PATH = "./Photos/";
 
 }

@@ -20,7 +20,7 @@ public class LoginPage implements IAutoConst {
 	@FindBy(name = "pwd")
 	private WebElement pwTB;
 
-	@FindBy(xpath = ".//div[.='Login']")
+	@FindBy(xpath = ".//div[.='Login ']")
 	private WebElement loginBTN;
 
 	@FindBy(xpath = ".//span[contains(.,'invalid')]")
