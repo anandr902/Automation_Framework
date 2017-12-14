@@ -16,13 +16,10 @@ public class ValidLogin extends BaseTest {
 		// Enter valid user name
 		LoginPage l = new LoginPage(driver);
 		l.setUserName(un);
-
 		// Enter the valid password
 		l.setPassword(pw);
-
 		// Click on login
 		l.clickLogin();
-
 		// verify the home page title
 		EnterTimeTrackPage e = new EnterTimeTrackPage(driver);
 		e.verifyTitle(driver, eTitle);
